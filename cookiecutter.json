@@ -1,4 +1,7 @@
 {
   "author_name": "Boudewijn Schoon",
-  "author_email": "boudewijn@zicht.nl"
+  "author_email": "boudewijn@zicht.nl",
+  "app_name": "NAME",
+  "package_name": "yaz_{{cookiecutter.app_name.lower()}}_plugin",
+  "package_description": "DESCRIPTION HERE"
 }

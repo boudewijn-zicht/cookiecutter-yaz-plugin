@@ -3,7 +3,7 @@ import yaz
 from .log import logger
 
 
-class {{cookiecutter.app_name}}(yaz.BasePlugin):
+class {{cookiecutter.app_name.capitalize()}}(yaz.BasePlugin):
     @yaz.task
     async def hello_world(self, greeting: str = 'Hello World!', shout: bool = False):
         if shout:
