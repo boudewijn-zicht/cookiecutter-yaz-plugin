@@ -1,11 +1,19 @@
 from setuptools import setup
 
 setup(name='{{cookiecutter.package_name}}',
-      version='1.0.0b1',
+      packages=['{{cookiecutter.package_name}}'],
+      version='{{cookiecutter.package_version}}',
       description='{{cookiecutter.package_description}}',
       author='{{cookiecutter.author_name}}',
       author_email='{{cookiecutter.author_email}}',
+      url="{{cookiecutter.package_url}}",
       license='MIT',
-      packages=['{{cookiecutter.package_name}}'],
+      zip_safe=False,
       install_requires=['yaz'],
-      zip_safe=False)
+      classifiers=[
+          "Development Status :: 4 - Beta",
+          "Environment :: Console",
+          "License :: OSI Approved :: MIT License",
+          "Programming Language :: Python :: 3.5",
+          "Programming Language :: Python :: 3.6"
+      ])

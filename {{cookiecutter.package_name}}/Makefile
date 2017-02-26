@@ -4,4 +4,7 @@ init:
 test:
     nosetests --with-coverage --cover-html --cover-package {{cookiecutter.package_name}}
 
-.PHONY: init test
+upload: test
+	python setup.py sdist upload -r pypi
+
+.PHONY: init test upload
