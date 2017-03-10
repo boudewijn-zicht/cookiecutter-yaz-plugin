@@ -1,9 +1,11 @@
 {
   "author_name": "Boudewijn Schoon",
   "author_email": "boudewijn@zicht.nl",
+  "author_github_name": "boudewijn-zicht",
   "app_name": "NAME",
-  "package_name": "yaz_{{cookiecutter.app_name.lower()}}_plugin",
+  "package_name": "yaz_{{cookiecutter.app_name|lower|replace(' ', '_')}}_plugin",
   "package_description": "A ... plugin for YAZ",
-  "package_url": "http://github.com/boudewijn-zicht/{{cookiecutter.package_name}}",
-  "package_version": "1.0.0b1"
+  "package_github_url": "http://github.com/{{cookiecutter.author_github_name}}/{{cookiecutter.package_name}}",
+  "package_clone_url": "git@github.com:{{cookiecutter.author_github_name}}/{{cookiecutter.package_name}}.git",
+  "package_version": "0.0.1"
 }
