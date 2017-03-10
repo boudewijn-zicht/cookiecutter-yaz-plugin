@@ -3,7 +3,7 @@ import yaz
 from .log import logger, set_verbose
 
 
-class {{cookiecutter.app_name|capitalize}}(yaz.BasePlugin):
+class {{cookiecutter.app_name}}(yaz.BasePlugin):
     @yaz.task
     async def hello_world(self, greeting: str = "Hello World!", shout: bool = False, verbose: bool = False):
         set_verbose(verbose)

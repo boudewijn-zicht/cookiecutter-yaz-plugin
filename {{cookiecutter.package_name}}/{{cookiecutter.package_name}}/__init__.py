@@ -1,1 +1,1 @@
-from .{{cookiecutter.app_name}} import {{cookiecutter.app_name.capitalize()}}
+from .{{cookiecutter.app_name|lower}} import {{cookiecutter.app_name}}
