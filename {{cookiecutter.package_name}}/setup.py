@@ -16,16 +16,16 @@ if sys.argv[-1] == "publish":
     sys.exit()
 
 setuptools.setup(
-    name='{{cookiecutter.package_name}}',
-    packages=['{{cookiecutter.package_name}}'],
+    name="{{cookiecutter.package_name}}",
+    packages=["{{cookiecutter.package_name}}"],
     version=version,
-    description='{{cookiecutter.package_description}}',
-    author='{{cookiecutter.author_name}}',
-    author_email='{{cookiecutter.author_email}}',
+    description="{{cookiecutter.package_description}}",
+    author="{{cookiecutter.author_name}}",
+    author_email="{{cookiecutter.author_email}}",
     url="{{cookiecutter.package_github_url}}",
-    license='MIT',
+    license="MIT",
     zip_safe=False,
-    install_requires=['yaz'],
+    install_requires=["yaz"],
     scripts=["bin/yaz-{{cookiecutter.app_name|lower}}"],
     test_suite="nose.collector",
     tests_require=["nose", "coverage"],
