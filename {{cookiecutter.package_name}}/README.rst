@@ -46,7 +46,7 @@ Developing
         deactivate
 
 
-Maintainer(s)
--------------
+Maintainer
+----------
 
 - {{cookiecutter.author_name}} <{{cookiecutter.author_email}}>
