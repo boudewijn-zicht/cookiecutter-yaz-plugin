@@ -1,11 +1,11 @@
 {
   "author_name": "Boudewijn Schoon",
-  "author_email": "boudewijn@zicht.nl",
-  "author_github_name": "boudewijn-zicht",
+  "author_email": "yaz@frayja.com",
+  "author_github_name": "yaz",
   "app_name": "CamelCaseAppName",
   "package_name": "yaz_{{cookiecutter.app_name|lower|replace(' ', '_')}}_plugin",
   "package_description": "A ... plugin for YAZ",
-  "package_github_url": "http://github.com/{{cookiecutter.author_github_name}}/{{cookiecutter.package_name}}",
+  "package_github_url": "https://github.com/{{cookiecutter.author_github_name}}/{{cookiecutter.package_name}}",
   "package_clone_url": "git@github.com:{{cookiecutter.author_github_name}}/{{cookiecutter.package_name}}.git",
   "package_version": "0.0.1"
 }

@@ -2,7 +2,7 @@ import os
 import setuptools
 import sys
 
-with open("yaz/version.py") as file:
+with open("{{cookiecutter.package_name}}/version.py") as file:
     globals = {}
     exec(file.read(), globals)
     version = globals["__version__"]
